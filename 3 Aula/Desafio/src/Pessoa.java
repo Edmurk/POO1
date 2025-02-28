@@ -1,14 +1,14 @@
 import java.util.Scanner;
 
-public class Pessoa {
-    private String nome;
+class Pessoa {
     private String cpf;
+    private String nome;
     private double peso;
     private double altura;
 
-    public Pessoa(String nome, String cpf, double peso, double altura) {
-        this.nome = nome;
+    public Pessoa(String cpf, String nome, double peso, double altura) {
         this.cpf = cpf;
+        this.nome = nome;
         this.peso = peso;
         this.altura = altura;
     }

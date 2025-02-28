@@ -1,21 +1,21 @@
-public class CalculadoraIMC {
-    public static double calcularIMC(Pessoa pessoa){
+class CalculadoraIMC {
+    public static double calcularIMC(Pessoa pessoa) {
         return pessoa.getPeso() / (pessoa.getAltura() * pessoa.getAltura());
     }
 
-    public static String VerificarObesidade(double imc) {
-        if (imc < 18.50){
+    public static String verificarFaixaObesidade(double imc) {
+        if (imc < 18.50) {
             return "Abaixo do peso";
         } else if (imc < 25.00) {
-            return "Peso Normal";
+            return "Peso normal";
         } else if (imc < 30.00) {
-            return "Pré Obesidade";
+            return "Pré-obesidade";
         } else if (imc < 35.00) {
-            return "Obesidade I";
+            return "Obesidade grau 1";
         } else if (imc < 40.00) {
-            return "Obesidade II";
+            return "Obesidade grau 2";
         } else {
-            return "Obesidade III";
+            return "Obesidade grau 3";
         }
     }
 }
