@@ -36,8 +36,5 @@ Os exercícios estão organizados em pastas nomeadas de acordo com a aula ou o t
 ## ✨ Contribuições
 Esse repositório é um espaço de aprendizado! Se quiser sugerir melhorias, reportar problemas ou compartilhar soluções alternativas, fique à vontade.
 
-## 📜 Licença
-Este projeto está sob a licença MIT. Para mais detalhes, consulte o arquivo LICENSE.
-
 ---
 📌 _Criado por Edvaldo Abreu com dedicação e código!_ 😃
