@@ -17,12 +17,13 @@ Aqui você encontrará exercícios resolvidos que abordam os principais conceito
 Os exercícios estão organizados em pastas nomeadas de acordo com a aula ou o tema abordado. A estrutura será algo assim:
 
 ```
-📂 src/
- ├── Aula01/
+📂 Aula1/
+ ├── src/
  │   ├── Exercicio1.java
  │   ├── Exercicio2.java
  │   └── ...
- ├── Aula02/
+📂 Aula2/
+ ├── src/
  │   ├── Exercicio1.java
  │   ├── Exercicio2.java
  │   └── ...
