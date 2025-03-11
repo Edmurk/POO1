@@ -14,7 +14,7 @@ public class ProgramaIMC {
             System.out.println("Digite o seu peso(kg): ");
             double peso = scanner.nextDouble();
 
-            System.out.println("Digite o seu altura: ");
+            System.out.println("Digite a sua altura: ");
             double altura = scanner.nextDouble();
             scanner.nextLine();
 
