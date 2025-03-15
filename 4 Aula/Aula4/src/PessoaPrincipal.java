@@ -1,22 +1,29 @@
+import java.util.Scanner;
+
 public class PessoaPrincipal {
-
     public static void main(String[] args) {
-        System.out.println("#######CLIENTES#######");
-        Cliente oCliente = new Cliente();
-        oCliente.setNome("Edvaldo");
-        oCliente.setIdade("19");
-        oCliente.setCpf("083.745.991-54");
-        oCliente.setEndereco("Av Brasil, Qd-Z 53, Lt 02");
+        Scanner scanner = new Scanner(System.in);
 
-        oCliente.ImprimirCliente();
+        //CRIAR CLIENTE
+        System.out.println("=== Cadastro de Cliente ===");
+        System.out.print("Nome: ");
+        String nomeCliente = scanner.nextLine();
+        System.out.print("Idade: ");
+        int idadeCliente = scanner.nextInt();
+        scanner.nextLine(); // Limpar buffer
+        System.out.print("Endereço: ");
+        String enderecoCliente = scanner.nextLine();
+        System.out.print("Salário: ");
+        double salarioCliente = scanner.nextDouble();
+        System.out.print("Imposto de Renda (%): ");
+        double irCliente = scanner.nextDouble();
+        scanner.nextLine(); // Limpar buffer
+        System.out.print("CPF: ");
+        String cpfCliente = scanner.nextLine();
 
-        System.out.println("\n#######FORNECEDORES#######");
-        Fornecedor oFornecedor = new Fornecedor();
-        oFornecedor.setCnpj("99.999.999./9999-99");
-        oFornecedor.setNome("Iasmyn");
-        oFornecedor.setIdade("25");
-        oFornecedor.setEndereco("Rua do Silva");
+        Cliente oCliente = new Cliente(nomeCliente, idadeCliente, enderecoCliente, salarioCliente, irCliente, cpfCliente);
+        oCliente.imprimirCliente();
 
-        oFornecedor.ImprimirFornecedor();
+        scanner.close();
     }
 }
