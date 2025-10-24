@@ -38,4 +38,4 @@ Os exercícios estão organizados em pastas nomeadas de acordo com a aula ou o t
 Esse repositório é um espaço de aprendizado! Se quiser sugerir melhorias, reportar problemas ou compartilhar soluções alternativas, fique à vontade.
 
 ---
-📌 _Criado por Edvaldo Abreu com dedicação e código!_ 😃
+_Criado por Edvaldo Abreu_
